@@ -100,6 +100,7 @@ a {
     border: none;
     border-radius: 25px;
     padding: 5px;
+    padding-left: 10px;
     outline: none;
 }
 
@@ -133,13 +134,13 @@ button:active {
     grid-row-start: 2;
     
     background-color: lightgray;
-    padding: 1.5rem;
+    padding: 2.5rem;
     z-index: 1;
 
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .inside-wrapper {
@@ -161,6 +162,8 @@ button:active {
     grid-template-rows: repeat(auto-fill, minmax(275px, 1fr));
     gap: 1.25rem;
     overflow: auto;
+
+    padding-right: 5px;
 }
 
 .content {
@@ -192,7 +195,6 @@ button:active {
 
 .announcements {
     grid-column-start: 2;
-    
 }
 
 .trending {
@@ -206,5 +208,6 @@ button:active {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    border-radius: 15px;
 }
 
