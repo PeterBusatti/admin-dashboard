@@ -181,7 +181,7 @@ button:active {
 
 .right-side-info {
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(300px, 35vh) );
+    grid-template-rows: repeat(auto-fill, minmax(300px, auto) );
 }
 
 .inside-wrapper {
