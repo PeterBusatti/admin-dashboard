@@ -79,9 +79,10 @@ a:visited {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 1rem;
-    justify-items: end;
+    gap: 2rem;
+    justify-items: center;
     align-items: center;
+    justify-content: end;
 }
 .left{
     width: 100%;
